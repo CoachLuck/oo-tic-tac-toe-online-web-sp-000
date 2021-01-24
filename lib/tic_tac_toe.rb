@@ -81,4 +81,9 @@ class TicTacToe
   def over?
     full?
   end
+
+  def winner
+    num = won?
+    $board[num]
+  end
 end
