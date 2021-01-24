@@ -46,5 +46,5 @@ class TicTacToe
   def turn_count
     @board.count { |idx| position_taken?(idx)}
   end
-  
+
 end
