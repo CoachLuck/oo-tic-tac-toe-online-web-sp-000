@@ -40,6 +40,6 @@ class TicTacToe
   end
 
   def valid_move?(idx)
-    position_taken(idx)
+    !position_taken(idx)
   end
 end
