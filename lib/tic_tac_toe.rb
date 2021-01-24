@@ -71,5 +71,5 @@ class TicTacToe
 
   def full?
     @board.detect{|x| x == " "} != nil
-
+  end
 end
