@@ -35,4 +35,8 @@ class TicTacToe
     @board[idx] != " "
   end
 
+  def move(idx, player = "X")
+    @board[idx] = player
+  end
+
 end
