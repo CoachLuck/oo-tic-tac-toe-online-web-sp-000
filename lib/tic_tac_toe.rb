@@ -72,4 +72,9 @@ class TicTacToe
   def full?
     @board.detect{|x| x == " "} == nil
   end
+
+  def draw?
+    return false if won? && full?
+    true
+  end
 end
