@@ -77,4 +77,8 @@ class TicTacToe
     return false if won? || !full?
     true
   end
+
+  def over?
+    !full?
+  end
 end
