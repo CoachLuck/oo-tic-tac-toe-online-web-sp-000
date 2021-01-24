@@ -83,7 +83,8 @@ class TicTacToe
   end
 
   def winner
-    num = won?
-    $board[num]
+    if num = won?
+      $board[num]]
+    end
   end
 end
