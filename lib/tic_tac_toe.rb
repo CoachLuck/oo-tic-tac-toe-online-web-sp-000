@@ -39,4 +39,6 @@ class TicTacToe
     @board[idx] = player
   end
 
+  def valid_move?(idx)
+    position_taken(idx - 1)
 end
